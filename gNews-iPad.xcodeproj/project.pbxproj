@@ -19,10 +19,19 @@
 		B58393F616CC143F00ABE4BE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58393F416CC143F00ABE4BE /* MainStoryboard.storyboard */; };
 		B58393F916CC143F00ABE4BE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58393F816CC143F00ABE4BE /* MasterViewController.m */; };
 		B58393FC16CC143F00ABE4BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58393FB16CC143F00ABE4BE /* DetailViewController.m */; };
+		B58CCD4116CCA53900FF5A58 /* story.m in Sources */ = {isa = PBXBuildFile; fileRef = B58CCD4016CCA53900FF5A58 /* story.m */; };
+		B58CEC6916D47681001FEFFD /* SectionPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58CEC6816D47681001FEFFD /* SectionPickerController.m */; };
+		B592B61516D6B34C00529D94 /* three_lines@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B592B61416D6B34C00529D94 /* three_lines@2x.png */; };
+		B5A3472616D807120076F7FA /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3472516D807120076F7FA /* Default-Landscape@2x~ipad.png */; };
+		B5A3472816D807340076F7FA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3472716D807340076F7FA /* Default-Landscape~ipad.png */; };
+		B5A3472A16D807500076F7FA /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3472916D807500076F7FA /* Default-Portrait@2x~ipad.png */; };
+		B5A3472C16D807620076F7FA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3472B16D807620076F7FA /* Default-Portrait~ipad.png */; };
+		B5A3472F16D80B7E0076F7FA /* Folded-Newspaper-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3472E16D80B7E0076F7FA /* Folded-Newspaper-retina.png */; };
+		B5A3473116D80BB10076F7FA /* Folded-Newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A3473016D80BB10076F7FA /* Folded-Newspaper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B58393D916CC143E00ABE4BE /* gNews-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gNews-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58393D916CC143E00ABE4BE /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58393DC16CC143E00ABE4BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B58393DE16CC143E00ABE4BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B58393E016CC143E00ABE4BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,6 +49,17 @@
 		B58393F816CC143F00ABE4BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		B58393FA16CC143F00ABE4BE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B58393FB16CC143F00ABE4BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B58CCD3F16CCA53900FF5A58 /* story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = story.h; sourceTree = "<group>"; };
+		B58CCD4016CCA53900FF5A58 /* story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = story.m; sourceTree = "<group>"; };
+		B58CEC6716D47681001FEFFD /* SectionPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionPickerController.h; sourceTree = "<group>"; };
+		B58CEC6816D47681001FEFFD /* SectionPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionPickerController.m; sourceTree = "<group>"; };
+		B592B61416D6B34C00529D94 /* three_lines@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three_lines@2x.png"; sourceTree = "<group>"; };
+		B5A3472516D807120076F7FA /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		B5A3472716D807340076F7FA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B5A3472916D807500076F7FA /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		B5A3472B16D807620076F7FA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B5A3472E16D80B7E0076F7FA /* Folded-Newspaper-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folded-Newspaper-retina.png"; sourceTree = "<group>"; };
+		B5A3473016D80BB10076F7FA /* Folded-Newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folded-Newspaper.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 		B58393D016CC143E00ABE4BE = {
 			isa = PBXGroup;
 			children = (
+				B5A3472D16D807A00076F7FA /* Resources */,
 				B58393E216CC143E00ABE4BE /* gNews-iPad */,
 				B58393DB16CC143E00ABE4BE /* Frameworks */,
 				B58393DA16CC143E00ABE4BE /* Products */,
@@ -68,7 +89,7 @@
 		B58393DA16CC143E00ABE4BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B58393D916CC143E00ABE4BE /* gNews-iPad.app */,
+				B58393D916CC143E00ABE4BE /* News.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +107,11 @@
 		B58393E216CC143E00ABE4BE /* gNews-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				B592B61416D6B34C00529D94 /* three_lines@2x.png */,
+				B58CEC6716D47681001FEFFD /* SectionPickerController.h */,
+				B58CEC6816D47681001FEFFD /* SectionPickerController.m */,
+				B58CCD3F16CCA53900FF5A58 /* story.h */,
+				B58CCD4016CCA53900FF5A58 /* story.m */,
 				B58393EB16CC143F00ABE4BE /* AppDelegate.h */,
 				B58393EC16CC143F00ABE4BE /* AppDelegate.m */,
 				B58393F416CC143F00ABE4BE /* MainStoryboard.storyboard */,
@@ -112,12 +138,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5A3472D16D807A00076F7FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A3473016D80BB10076F7FA /* Folded-Newspaper.png */,
+				B5A3472E16D80B7E0076F7FA /* Folded-Newspaper-retina.png */,
+				B5A3472B16D807620076F7FA /* Default-Portrait~ipad.png */,
+				B5A3472916D807500076F7FA /* Default-Portrait@2x~ipad.png */,
+				B5A3472716D807340076F7FA /* Default-Landscape~ipad.png */,
+				B5A3472516D807120076F7FA /* Default-Landscape@2x~ipad.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B58393D816CC143E00ABE4BE /* gNews-iPad */ = {
+		B58393D816CC143E00ABE4BE /* News */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B58393FF16CC143F00ABE4BE /* Build configuration list for PBXNativeTarget "gNews-iPad" */;
+			buildConfigurationList = B58393FF16CC143F00ABE4BE /* Build configuration list for PBXNativeTarget "News" */;
 			buildPhases = (
 				B58393D516CC143E00ABE4BE /* Sources */,
 				B58393D616CC143E00ABE4BE /* Frameworks */,
@@ -127,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = "gNews-iPad";
+			name = News;
 			productName = "gNews-iPad";
-			productReference = B58393D916CC143E00ABE4BE /* gNews-iPad.app */;
+			productReference = B58393D916CC143E00ABE4BE /* News.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B58393D816CC143E00ABE4BE /* gNews-iPad */,
+				B58393D816CC143E00ABE4BE /* News */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +207,13 @@
 				B58393F116CC143F00ABE4BE /* Default@2x.png in Resources */,
 				B58393F316CC143F00ABE4BE /* Default-568h@2x.png in Resources */,
 				B58393F616CC143F00ABE4BE /* MainStoryboard.storyboard in Resources */,
+				B592B61516D6B34C00529D94 /* three_lines@2x.png in Resources */,
+				B5A3472616D807120076F7FA /* Default-Landscape@2x~ipad.png in Resources */,
+				B5A3472816D807340076F7FA /* Default-Landscape~ipad.png in Resources */,
+				B5A3472A16D807500076F7FA /* Default-Portrait@2x~ipad.png in Resources */,
+				B5A3472C16D807620076F7FA /* Default-Portrait~ipad.png in Resources */,
+				B5A3472F16D80B7E0076F7FA /* Folded-Newspaper-retina.png in Resources */,
+				B5A3473116D80BB10076F7FA /* Folded-Newspaper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +228,8 @@
 				B58393ED16CC143F00ABE4BE /* AppDelegate.m in Sources */,
 				B58393F916CC143F00ABE4BE /* MasterViewController.m in Sources */,
 				B58393FC16CC143F00ABE4BE /* DetailViewController.m in Sources */,
+				B58CCD4116CCA53900FF5A58 /* story.m in Sources */,
+				B58CEC6916D47681001FEFFD /* SectionPickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +280,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -257,7 +305,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -271,7 +319,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gNews-iPad/gNews-iPad-Prefix.pch";
 				INFOPLIST_FILE = "gNews-iPad/gNews-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -282,7 +332,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gNews-iPad/gNews-iPad-Prefix.pch";
 				INFOPLIST_FILE = "gNews-iPad/gNews-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,13 +351,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B58393FF16CC143F00ABE4BE /* Build configuration list for PBXNativeTarget "gNews-iPad" */ = {
+		B58393FF16CC143F00ABE4BE /* Build configuration list for PBXNativeTarget "News" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B583940016CC143F00ABE4BE /* Debug */,
 				B583940116CC143F00ABE4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

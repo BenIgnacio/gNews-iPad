@@ -39,6 +39,14 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    /* If, we're coming back from an error,  Webpage and master tableview are nil. 2 things need to happen
+       can I call fetchdata here? 
+     1. Load a webpage
+     2. Reload the master tableview
+    */
+    
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

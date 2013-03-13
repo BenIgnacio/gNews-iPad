@@ -7,11 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SectionPickerController.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <SectionPickerDelegate>
+{
+    SectionPickerController *_sectionPicker;
+    UIPopoverController *_sectionPickerPopover;
+}
+- (IBAction)setSectionButtonTapped:(id)sender;
+
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property (retain, nonatomic) SectionPickerController *sectionPicker;
+@property (retain, nonatomic) UIPopoverController *sectionPickerPopover;
+@property (retain, nonatomic) NSString *sectionChar;
 
 @end
